@@ -33,3 +33,30 @@
 - 다형성
 - 캡슐화
 - 상속
+## 5가지 설계 원칙 (SOLID)
+- SRP : Single Responsibility Principle
+- OCP : Open Closed Principle
+- LSP : Liskov's Substitution Principle
+- ISP : Interface Segregation Principle
+- DIP : Dependency Inversion Principle 
+## 갹체지향 패러다임
+- 적절한 객체에게 적절한 책임을 할당하여 서로 메시지를 주고 받으며 협력하도록 하는 것
+- 점점 증가하는 SW 복잡도를 낮추기 위해 객체지향 패러다임이 대두 
+
+## 객체지향 프로그래밍 VS 절차지향 프로그래밍
+- 책임이 한곳에 집중되어 있는가? 
+  - Yes : 객체지향
+  - NO : 절차지향
+- 객체지향 설계는 high cohesion, loose coupling -> 높은 응집도와 낮은 결합도
+  - 비슷한 것은 같이 모아두고 다른 것들은 분리하는 것
+    - 유지보수에 좋음
+
+## 객체지향으로 설계할 때 하면 좋은 고민
+- 도메인을 구성하는 객체에는 어떤 것들이 있는지 고민
+- 객체들 간의 관계를 고민
+- 동적인 객체를 정적인 타입으로 추상화해서 도메인 모델링 하기
+- 협력을 설계
+  - 객체지향은 미래의 역할을 고민
+- 객체들을 포괄하는 타입에 적절한 책임을 할당
+  - 단일책임원칙
+- 구현하기 
